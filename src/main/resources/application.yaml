@@ -1,0 +1,8 @@
+spring:
+  devtools:
+    add-properties: false
+  banner:
+    image:
+      bitdepth: 8
+server:
+  port: 8081
