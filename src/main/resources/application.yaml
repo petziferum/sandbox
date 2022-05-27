@@ -8,6 +8,14 @@ spring:
     url: jdbc:postgresql://localhost:5432/sandbox
     username:
     password: patrick
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQL81Dialect
 server:
   port: 8081
 
