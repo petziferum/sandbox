@@ -4,5 +4,10 @@ spring:
   banner:
     image:
       bitdepth: 8
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sandbox
+    username:
+    password: patrick
 server:
   port: 8081
+
