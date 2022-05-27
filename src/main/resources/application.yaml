@@ -5,8 +5,8 @@ spring:
     image:
       bitdepth: 8
   datasource:
-    url: jdbc:postgresql://localhost:5432/sandbox
-    username:
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
     password: patrick
   jpa:
     hibernate:
@@ -18,4 +18,8 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQL81Dialect
 server:
   port: 8081
+
+springdoc:
+  swagger-ui:
+    path: "/"
 

@@ -13,9 +13,4 @@ public class SandboxApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SandboxApplication.class, args);
 	}
-
-	@RequestMapping("/")
-	public ModelAndView showSwagger() {
-		return new ModelAndView("redirect:/swagger-ui.html");
-	}
 }
